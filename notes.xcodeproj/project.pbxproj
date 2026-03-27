@@ -6,6 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		050E3BA32F669CE1006482DA /* ToastWindow in Frameworks */ = {isa = PBXBuildFile; productRef = 050E3BA22F669CE1006482DA /* ToastWindow */; };
+		05369BDE2F649F5A00C74DC5 /* ClerkKit in Frameworks */ = {isa = PBXBuildFile; productRef = 05369BDD2F649F5A00C74DC5 /* ClerkKit */; };
+		05369BE02F649F5A00C74DC5 /* ClerkKitUI in Frameworks */ = {isa = PBXBuildFile; productRef = 05369BDF2F649F5A00C74DC5 /* ClerkKitUI */; };
+		05369BE32F649F6700C74DC5 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 05369BE22F649F6700C74DC5 /* Alamofire */; };
+		05D6F0702F64CFAB005E4838 /* WaterfallGrid in Frameworks */ = {isa = PBXBuildFile; productRef = 05D6F06F2F64CFAB005E4838 /* WaterfallGrid */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		05369BA42F649E6700C74DC5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -29,9 +37,22 @@
 		05369BAD2F649E6700C74DC5 /* notesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = notesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		05D6F0822F65DF4D005E4838 /* Exceptions for "notes" folder in "notes" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 05369B932F649E6600C74DC5 /* notes */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		05369B962F649E6600C74DC5 /* notes */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				05D6F0822F65DF4D005E4838 /* Exceptions for "notes" folder in "notes" target */,
+			);
 			path = notes;
 			sourceTree = "<group>";
 		};
@@ -52,6 +73,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05369BE32F649F6700C74DC5 /* Alamofire in Frameworks */,
+				050E3BA32F669CE1006482DA /* ToastWindow in Frameworks */,
+				05D6F0702F64CFAB005E4838 /* WaterfallGrid in Frameworks */,
+				05369BDE2F649F5A00C74DC5 /* ClerkKit in Frameworks */,
+				05369BE02F649F5A00C74DC5 /* ClerkKitUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +138,11 @@
 			);
 			name = notes;
 			packageProductDependencies = (
+				05369BDD2F649F5A00C74DC5 /* ClerkKit */,
+				05369BDF2F649F5A00C74DC5 /* ClerkKitUI */,
+				05369BE22F649F6700C74DC5 /* Alamofire */,
+				05D6F06F2F64CFAB005E4838 /* WaterfallGrid */,
+				050E3BA22F669CE1006482DA /* ToastWindow */,
 			);
 			productName = notes;
 			productReference = 05369B942F649E6600C74DC5 /* notes.app */;
@@ -195,6 +226,12 @@
 			);
 			mainGroup = 05369B8B2F649E6600C74DC5;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				05369BDC2F649F5A00C74DC5 /* XCRemoteSwiftPackageReference "clerk-ios" */,
+				05369BE12F649F6700C74DC5 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				05D6F06E2F64CFAB005E4838 /* XCRemoteSwiftPackageReference "WaterfallGrid" */,
+				050E3BA12F669CE1006482DA /* XCRemoteSwiftPackageReference "ToastWindow" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 05369B952F649E6600C74DC5 /* Products */;
 			projectDirPath = "";
@@ -400,11 +437,13 @@
 				DEVELOPMENT_TEAM = 6W9JC3853A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = notes/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -432,11 +471,13 @@
 				DEVELOPMENT_TEAM = 6W9JC3853A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = notes/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -578,6 +619,69 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		050E3BA12F669CE1006482DA /* XCRemoteSwiftPackageReference "ToastWindow" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/michael94ellis/ToastWindow.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+		05369BDC2F649F5A00C74DC5 /* XCRemoteSwiftPackageReference "clerk-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/clerk/clerk-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.5;
+			};
+		};
+		05369BE12F649F6700C74DC5 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.11.1;
+			};
+		};
+		05D6F06E2F64CFAB005E4838 /* XCRemoteSwiftPackageReference "WaterfallGrid" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/paololeonardi/WaterfallGrid";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		050E3BA22F669CE1006482DA /* ToastWindow */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 050E3BA12F669CE1006482DA /* XCRemoteSwiftPackageReference "ToastWindow" */;
+			productName = ToastWindow;
+		};
+		05369BDD2F649F5A00C74DC5 /* ClerkKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05369BDC2F649F5A00C74DC5 /* XCRemoteSwiftPackageReference "clerk-ios" */;
+			productName = ClerkKit;
+		};
+		05369BDF2F649F5A00C74DC5 /* ClerkKitUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05369BDC2F649F5A00C74DC5 /* XCRemoteSwiftPackageReference "clerk-ios" */;
+			productName = ClerkKitUI;
+		};
+		05369BE22F649F6700C74DC5 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05369BE12F649F6700C74DC5 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		05D6F06F2F64CFAB005E4838 /* WaterfallGrid */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05D6F06E2F64CFAB005E4838 /* XCRemoteSwiftPackageReference "WaterfallGrid" */;
+			productName = WaterfallGrid;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 05369B8C2F649E6600C74DC5 /* Project object */;
 }

@@ -1,0 +1,60 @@
+{
+  "originHash" : "237aaf1c0ab2e0f3b0cc8925e03607b9c06e342433042135114eb818d5732de4",
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "revision" : "3f99050e75bbc6fe71fc323adabb039756680016",
+        "version" : "5.11.1"
+      }
+    },
+    {
+      "identity" : "clerk-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/clerk/clerk-ios",
+      "state" : {
+        "revision" : "1b2d4d56743902477bb72532bea6c145ef615136",
+        "version" : "1.0.5"
+      }
+    },
+    {
+      "identity" : "nuke",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kean/Nuke.git",
+      "state" : {
+        "revision" : "83e19143355b02e9261edb2323b3e1e93287ebb9",
+        "version" : "12.9.0"
+      }
+    },
+    {
+      "identity" : "phonenumberkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/marmelroy/PhoneNumberKit",
+      "state" : {
+        "revision" : "ad20aba8db84a6ba373abfcffe38b1c8e6f8258b",
+        "version" : "4.2.7"
+      }
+    },
+    {
+      "identity" : "toastwindow",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/michael94ellis/ToastWindow.git",
+      "state" : {
+        "revision" : "04d49ccde50a0848a7bfb9a4ade95eb7fa028b69",
+        "version" : "1.1.0"
+      }
+    },
+    {
+      "identity" : "waterfallgrid",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/paololeonardi/WaterfallGrid",
+      "state" : {
+        "revision" : "c7c08652c3540adf8e48409c351879b4caea7e89",
+        "version" : "1.1.0"
+      }
+    }
+  ],
+  "version" : 3
+}
