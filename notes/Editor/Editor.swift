@@ -126,6 +126,7 @@ struct Editor: View {
             if !note.isEncrypted {
                 content = note.content
                 originalContent = note.content
+                isPasswordCorrect = true
             } else {
                 showingPasswordDialog = true
             }
