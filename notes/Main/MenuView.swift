@@ -70,7 +70,8 @@ struct MenuView: View {
             .padding()
             .background(Color("Menu_background"))
             .foregroundColor(Color("Blue_text"))
-            .font(.custom("Good Pawoo", size: 30))
+            .font(.custom("LemiXiaoNaiPaoTi", size: 40))
+            .bold(true)
             .cornerRadius(16)
             .padding()
         }

@@ -19,7 +19,8 @@ struct TrashView: View {
             VStack(alignment: .leading) {
                 // Top-left title
                 Text("Trash Can")
-                    .font(.custom("Good Pawoo", size: 45))
+                    .font(.custom("LemiXiaoNaiPaoTi", size: 50))
+                    .bold(true)
                     .padding(.horizontal)
                     .padding(.top)
                     .foregroundColor(Color("Blue_text"))

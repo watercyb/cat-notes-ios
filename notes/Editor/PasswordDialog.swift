@@ -14,6 +14,8 @@ struct PasswordDialog: View {
     
     var title: String = "Password Required"
     @Binding var note: Note
+    
+    @Environment(\.dismiss) private var dismiss
 
     var body: some View {
         if isPresented {
@@ -52,6 +54,7 @@ struct PasswordDialog: View {
                         Button("Cancel") {
                             isPasswordCorrect = false
                             isPresented = false
+                            dismiss()
                         }
                         .frame(width: 115, height: 44)
                         .background(Color.gray.opacity(0.3))
