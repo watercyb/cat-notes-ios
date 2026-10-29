@@ -1,0 +1,50 @@
+# Xcode
+# ========================
+build/
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# User settings and personal layouts
+# ========================
+xcuserdata/
+*.xcuserstate
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# Architecture / Build environments
+# ========================
+.xcode.env.local
+
+# Swift Package Manager
+# ========================
+.build/
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.swiftpm/xcode/xcshareddata/
+
+# CocoaPods (Ignore the Pods directory, keep the Podfile)
+# ========================
+Pods/
+*.xcworkspace
+
+# Carthage (Ignore build artifacts)
+# ========================
+Carthage/Build/
+
+# Fastlane
+# ========================
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Miscellaneous
+# ========================
+.DS_Store
+*.swp
+*~
+
+Secrets.plist
