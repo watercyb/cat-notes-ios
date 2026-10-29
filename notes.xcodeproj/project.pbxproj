@@ -11,6 +11,7 @@
 		05369BDE2F649F5A00C74DC5 /* ClerkKit in Frameworks */ = {isa = PBXBuildFile; productRef = 05369BDD2F649F5A00C74DC5 /* ClerkKit */; };
 		05369BE02F649F5A00C74DC5 /* ClerkKitUI in Frameworks */ = {isa = PBXBuildFile; productRef = 05369BDF2F649F5A00C74DC5 /* ClerkKitUI */; };
 		05369BE32F649F6700C74DC5 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 05369BE22F649F6700C74DC5 /* Alamofire */; };
+		05BE432E3093E83700E7BF58 /* .gitignore in Sources */ = {isa = PBXBuildFile; fileRef = 05BE432D3093E82B00E7BF58 /* .gitignore */; };
 		05D6F0702F64CFAB005E4838 /* WaterfallGrid in Frameworks */ = {isa = PBXBuildFile; productRef = 05D6F06F2F64CFAB005E4838 /* WaterfallGrid */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		05369B942F649E6600C74DC5 /* notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05369BA32F649E6700C74DC5 /* notesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = notesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05369BAD2F649E6700C74DC5 /* notesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = notesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05BE432D3093E82B00E7BF58 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -101,6 +103,7 @@
 		05369B8B2F649E6600C74DC5 = {
 			isa = PBXGroup;
 			children = (
+				05BE432D3093E82B00E7BF58 /* .gitignore */,
 				05369B962F649E6600C74DC5 /* notes */,
 				05369BA62F649E6700C74DC5 /* notesTests */,
 				05369BB02F649E6700C74DC5 /* notesUITests */,
@@ -273,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05BE432E3093E83700E7BF58 /* .gitignore in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
